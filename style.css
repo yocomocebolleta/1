@@ -185,7 +185,9 @@ font-family: 'Roboto Condensed' , sans-serif;}
 
 }
 .btn-2:hover {
-    background-color:#efb810;
+    background-color:black;
+    color: #FFFFFF;
+    
 }
 .icons {
     color: black;
@@ -198,28 +200,34 @@ font-family: 'Roboto Condensed' , sans-serif;}
     }
 
 /* ... */
-.precios {
-    background-color: black
-}
+
+
 .text-content {
     text-align: center;
     font-size: 47px;
     line-height: 70px;
-    color:white;
+    color:rgb(197, 35, 35);
     text-transform: uppercase;
     margin-bottom: 40px;
+    display: flex;
+   justify-content: center;
     
 }
 .productos-group {
 display: flex;
+justify-content: center;
 margin-bottom: 50px;
 }
 .producto-1 a {
-    color: white;
+    background-color:rgb(197, 35, 35);
+    color: #FFFFFF;
+    text-transform: uppercase;
+
 }
 .producto-1 a:hover {
-    color: rgb(197, 35, 35);
+    color:black;
 }
+
 .producto-1 {
 padding: 0 3px;
 }
